@@ -1,0 +1,13 @@
+Material Icon Theme
+NetBeans Light Theme
+Prettier 
+
+Auto Rename Tag
+GitLens
+
+Bracket Pair Colorizer 2 (Beta)
+Spelling Checker for Visual Studio Code
+Live Server
+TODO-HIGHLIGHT
+Better Comments
+
