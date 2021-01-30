@@ -1,0 +1,2 @@
+abbreviation: aa
+snippet: ($START$) => {$END$}
