@@ -1,5 +1,5 @@
 {
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 2,
     "editor.fontSize": 18,
     "editor.mouseWheelZoom": true,
     "editor.overviewRulerBorder": false,
@@ -14,7 +14,6 @@
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "editor.acceptSuggestionOnCommitCharacter": false,
-    "editor.formatOnSave": true,
     "editor.autoClosingBrackets": "always",
     "terminal.integrated.rendererType": "dom",
     "files.autoSave": "afterDelay",
@@ -28,11 +27,16 @@
         "**/.git/subtree-cache/**": true,
         "**/node_modules/*/**": true
     },
-    "prettier.singleQuote": true,
+    "editor.formatOnSave": true,
+    // "editor.formatOnPaste": true,
+    // "prettier.singleQuote": true,
     "prettier.useTabs": true,
     "prettier.tabWidth": 4,
     "prettier.printWidth": 100,
     "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "workbench.colorTheme": "NetBeans Light Theme",
@@ -45,10 +49,6 @@
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"
     },
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "auto-rename-tag.activationOnLanguage": [
-        "*"
-    ]
+    "editor.linkedEditing": true,
+    "workbench.list.openMode": "doubleClick"
 }

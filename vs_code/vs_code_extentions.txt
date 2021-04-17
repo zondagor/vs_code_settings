@@ -1,6 +1,5 @@
 Material Icon Theme
 NetBeans Light Theme
-Prettier 
 
 Auto Rename Tag
 GitLens

@@ -1,7 +1,7 @@
 // Place your key bindings in this file to override the defaults
 [
     {
-        "key": "ctrl+alt+p",
+        "key": "ctrl+alt+l",
         "command": "editor.action.insertSnippet",
         "when": "editorTextFocus",
         "args": {
@@ -9,7 +9,7 @@
         }
     },
     {
-        "key": "ctrl+alt+;",
+        "key": "ctrl+alt+p",
         "command": "editor.action.insertSnippet",
         "when": "editorTextFocus",
         "args": {
@@ -17,7 +17,7 @@
         }
     },
     {
-        "key": "ctrl+alt+l",
+        "key": "ctrl+alt+j",
         "command": "editor.action.insertSnippet",
         "when": "editorTextFocus",
         "args": {
