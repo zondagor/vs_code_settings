@@ -39,16 +39,17 @@
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "workbench.colorTheme": "NetBeans Light Theme",
     "workbench.iconTheme": "material-icon-theme",
-    // "bracket-pair-colorizer-2.colors": [
-    //     "#00C700",
-    //     "#E30606",
-    //     "#001EFF"
-    // ],
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"
     },
     "editor.linkedEditing": true,
-    "workbench.list.openMode": "doubleClick"
+    "workbench.list.openMode": "doubleClick",
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.colorTheme": "Github Light Theme - Gray",
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.currentLine.enabled": false,
+    "gitlens.codeLens.enabled": false
 }
