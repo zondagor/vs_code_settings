@@ -40,5 +40,12 @@
             "snippet": "const ${TM_SELECTED_TEXT}$1 = require('${TM_SELECTED_TEXT}$2')$3;"
         }
     },
-    
+    { "key": "ctrl+n",
+        "command": "explorer.newFile",
+        "when": "!editorFocus" 
+    },
+    { "key": "ctrl+shift+n",
+        "command": "explorer.newFolder",
+        "when": "!editorFocus" 
+    },
 ]
