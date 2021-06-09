@@ -1,2 +1,2 @@
 Material Icon Theme
-Github Light Theme
+NetBeans Light Theme
