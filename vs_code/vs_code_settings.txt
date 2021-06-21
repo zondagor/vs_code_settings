@@ -6,27 +6,38 @@
 	"editor.wordWrap": "on",
 	"explorer.confirmDelete": false,
 	"explorer.confirmDragAndDrop": false,
-	// "editor.acceptSuggestionOnCommitCharacter": false,
 	"files.autoSave": "afterDelay",
-	// "files.watcherExclude": {
-	//     "**/.git/objects/**": true,
-	//     "**/.git/subtree-cache/**": true,
-	//     "**/node_modules/*/**": true
-	// },
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[java]": {
+		"editor.defaultFormatter": "redhat.java"
+	},
 	"editor.formatOnSave": true,
 	"prettier.useTabs": true,
 	"prettier.tabWidth": 4,
 	"prettier.printWidth": 100,
-	"emmet.includeLanguages": {
-		"javascript": "javascriptreact"
-	},
+	// "emmet.includeLanguages": {
+	// 	"javascript": "javascriptreact"
+	// },
 	"workbench.iconTheme": "material-icon-theme",
 	"workbench.list.openMode": "doubleClick",
 	"gitlens.hovers.currentLine.over": "line",
 	"gitlens.currentLine.enabled": false,
 	"gitlens.codeLens.enabled": false,
+	"gitlens.statusBar.enabled": false,
 	"workbench.startupEditor": "newUntitledFile",
+	"workbench.colorTheme": "NetBeans Light Theme",
 	"window.zoomLevel": 2,
-	"workbench.colorTheme": "NetBeans Light Theme"
+	"editor.suggestSelection": "first",
+	// "files.watcherExclude": {
+	//     "**/.git/objects/**": true,
+	//     "**/.git/subtree-cache/**": true,
+	//     "**/node_modules/*/**": true
+	// },
+	"files.exclude": {
+		"**/.classpath": true,
+		"**/.project": true,
+		"**/.settings": true,
+		"**/.factorypath": true
+	}
 }
+
